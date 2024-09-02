@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gupdate xmlns="http://www.google.com/update2/crx" protocol="2.0">
   <app appid="jiddoblfmmoeiadbibaghfgicaiooajp">
-    <updatecheck codebase="https://ajay-singh-rajput.github.io/Bolt-Wallet/dist.crx" version="1.0"/>
+    <updatecheck codebase="https://ajay-singh-rajput.github.io/Bolt-Wallet/dist" version="1.0"/>
   </app>
 </gupdate>
