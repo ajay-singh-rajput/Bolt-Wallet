@@ -10,6 +10,7 @@ import { setPrivateKey } from './store/slices/authSlice'
 import WalletHome from './pages/WalletHome'
 import Footer from './layouts/Footer'
 import AirdropDetails from './pages/AirdropList'
+import SolanaWallet from './components/SolanaWallet'
 
 const App:React.FC = () => {
 
@@ -36,7 +37,7 @@ const App:React.FC = () => {
   const AuthHome = withAuth(WalletHome)
   
   return (
-    <div className='w-[375px] h-[600px] bg-black text-white flex flex-col relative'>
+    <div className='w-[375px] h-[600px] bg-gray-950 text-white flex flex-col relative'>
       <Routes>
         <Route path='/' element={<AuthHome />} />
         <Route path='/passcode' element={<CreatePasscode/>} />
@@ -47,8 +48,8 @@ const App:React.FC = () => {
       </Routes>
       <>
       </>
-      {true && <Footer/>}
-      
+      {isAuth && <Footer/>}
+      <SolanaWallet/>
     </div>
   )
 }

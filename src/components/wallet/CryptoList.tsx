@@ -72,13 +72,13 @@ const CryptoCoinList: React.FC = () => {
                                 {coin.symbol}
                             </div>
                             <div>
-                                <h2 className="text-white text-lg font-semibold">{coin.name}</h2>
+                                <h2 className="text-white  font-semibold">{coin.name}</h2>
                                 <p className="text-gray-400 text-sm">{coin.symbol}</p>
                             </div>
                         </div>
                         <div className="text-right">
-                            <p className="text-white text-base font-medium">${coin.currentPrice.toFixed(2)}</p>
-                            <p className="text-gray-500 text-sm">{coin.amountOwned.toFixed(2)} {coin.symbol}</p>
+                            <p className="text-white text-sm font-medium">${coin.currentPrice.toFixed(2)}</p>
+                            <p className="text-gray-500 text-xs">{coin.amountOwned.toFixed(2)} {coin.symbol}</p>
                         </div>
                         <div  className="text-gray-500 ml-4 w-5">
 

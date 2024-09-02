@@ -6,7 +6,7 @@ import StoreIcon from '../icons/StoreIcon'
 
 const TotalBalance:React.FC = () => {
   return (
-    <div className='w-full h-48 bg-gray-900 flex flex-col items-center justify-center'> 
+    <div className='w-full min-h-40 bg-gray-900 flex flex-col items-center justify-center'> 
     <p className='text-sm text-gray-500'>Total balance</p>
     <p className='text-gray-300 text-3xl'><span className='text-gray-500'>$</span>5.22</p>
     <div className='flex items-center justify-evenly w-full mt-5'>

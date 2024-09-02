@@ -1,5 +1,4 @@
 import React from 'react';
-import CheckCircle from '../components/icons/CheckCircle';
 
 interface Airdrop {
     id: number;
@@ -41,7 +40,7 @@ const airdrops: Airdrop[] = [
 
 const AirdropDetails: React.FC = () => {
     return (
-        <div className="bg-gray-900 w-full max-w-md h-[600px] overflow-auto p-6 rounded-lg shadow-lg">
+        <div className=" w-full max-w-md h-[600px] overflow-auto p-6 rounded-lg shadow-lg">
             <h1 className="text-orange-500 text-2xl font-extrabold mb-6 text-center">Airdrop Details</h1>
             <div className="space-y-6">
                 {airdrops.map(airdrop => (
