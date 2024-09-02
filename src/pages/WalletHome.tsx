@@ -4,6 +4,7 @@ import ClipboardIcon from '../components/icons/ClipboardIcon'
 import ArrowIconDown from '../components/icons/ArrowIconDown'
 import AddIcon from '../components/icons/AddIcon'
 import TotalBalance from '../components/wallet/TotalBalance'
+import CryptoCoinList from '../components/wallet/CryptoList'
 
 const WalletHome:React.FC = () => {
   return (
@@ -25,6 +26,7 @@ const WalletHome:React.FC = () => {
             
         </div>
         <TotalBalance/>
+        <CryptoCoinList/>
 
     </div>
   )
