@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "types": ["chrome"], // Include Chrome types if needed
+    "forceConsistentCasingInFileNames": true, // Enable consistent casing
+    "strict": true
+  }
+}
